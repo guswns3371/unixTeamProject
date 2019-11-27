@@ -4,7 +4,6 @@
 #include <sys/types.h>
 #include <sys/ipc.h>
 #include <sys/msg.h>
-
 #define DEFINED_KEY 0x125291
 #define INFO_FILE "information.txt"
 
