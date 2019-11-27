@@ -59,8 +59,6 @@ void Add() //제품 정보 추가
             printf("can not close the file\n");
             exit(0);
         }
-
-
         //파일을 닫을 수 있는지 확인
         printf("다른 제품 추가1, 메뉴로 돌아가기0");
         scanf("%d", &loop);
