@@ -74,7 +74,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/guswn/CLionProjects/unixTeamProject/main.c">
+		<Unit filename="C:/Users/guswn/CLionProjects/unixTeamProject/guswns/time.c">
 			<Option target="unixTeamProject"/>
 		</Unit>
 		<Unit filename="C:/Users/guswn/CLionProjects/unixTeamProject/CMakeLists.txt">

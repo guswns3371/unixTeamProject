@@ -56,27 +56,27 @@ include CMakeFiles/unixTeamProject.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/unixTeamProject.dir/flags.make
 
-CMakeFiles/unixTeamProject.dir/main.c.obj: CMakeFiles/unixTeamProject.dir/flags.make
-CMakeFiles/unixTeamProject.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\guswn\CLionProjects\unixTeamProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/unixTeamProject.dir/main.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\unixTeamProject.dir\main.c.obj   -c C:\Users\guswn\CLionProjects\unixTeamProject\main.c
+CMakeFiles/unixTeamProject.dir/guswns/time.c.obj: CMakeFiles/unixTeamProject.dir/flags.make
+CMakeFiles/unixTeamProject.dir/guswns/time.c.obj: ../guswns/time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\guswn\CLionProjects\unixTeamProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/unixTeamProject.dir/guswns/time.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\unixTeamProject.dir\guswns\time.c.obj   -c C:\Users\guswn\CLionProjects\unixTeamProject\guswns\time.c
 
-CMakeFiles/unixTeamProject.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unixTeamProject.dir/main.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\guswn\CLionProjects\unixTeamProject\main.c > CMakeFiles\unixTeamProject.dir\main.c.i
+CMakeFiles/unixTeamProject.dir/guswns/time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unixTeamProject.dir/guswns/time.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\guswn\CLionProjects\unixTeamProject\guswns\time.c > CMakeFiles\unixTeamProject.dir\guswns\time.c.i
 
-CMakeFiles/unixTeamProject.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unixTeamProject.dir/main.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\guswn\CLionProjects\unixTeamProject\main.c -o CMakeFiles\unixTeamProject.dir\main.c.s
+CMakeFiles/unixTeamProject.dir/guswns/time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unixTeamProject.dir/guswns/time.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\guswn\CLionProjects\unixTeamProject\guswns\time.c -o CMakeFiles\unixTeamProject.dir\guswns\time.c.s
 
 # Object files for target unixTeamProject
 unixTeamProject_OBJECTS = \
-"CMakeFiles/unixTeamProject.dir/main.c.obj"
+"CMakeFiles/unixTeamProject.dir/guswns/time.c.obj"
 
 # External object files for target unixTeamProject
 unixTeamProject_EXTERNAL_OBJECTS =
 
-unixTeamProject.exe: CMakeFiles/unixTeamProject.dir/main.c.obj
+unixTeamProject.exe: CMakeFiles/unixTeamProject.dir/guswns/time.c.obj
 unixTeamProject.exe: CMakeFiles/unixTeamProject.dir/build.make
 unixTeamProject.exe: CMakeFiles/unixTeamProject.dir/linklibs.rsp
 unixTeamProject.exe: CMakeFiles/unixTeamProject.dir/objects1.rsp

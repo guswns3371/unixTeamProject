@@ -3,4 +3,4 @@ project(unixTeamProject C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(unixTeamProject main.c)
+add_executable(unixTeamProject guswns/time.c)

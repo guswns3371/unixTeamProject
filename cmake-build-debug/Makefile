@@ -122,32 +122,32 @@ unixTeamProject/fast:
 	$(MAKE) -f CMakeFiles\unixTeamProject.dir\build.make CMakeFiles/unixTeamProject.dir/build
 .PHONY : unixTeamProject/fast
 
-main.obj: main.c.obj
+guswns/time.obj: guswns/time.c.obj
 
-.PHONY : main.obj
+.PHONY : guswns/time.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) -f CMakeFiles\unixTeamProject.dir\build.make CMakeFiles/unixTeamProject.dir/main.c.obj
-.PHONY : main.c.obj
+guswns/time.c.obj:
+	$(MAKE) -f CMakeFiles\unixTeamProject.dir\build.make CMakeFiles/unixTeamProject.dir/guswns/time.c.obj
+.PHONY : guswns/time.c.obj
 
-main.i: main.c.i
+guswns/time.i: guswns/time.c.i
 
-.PHONY : main.i
+.PHONY : guswns/time.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles\unixTeamProject.dir\build.make CMakeFiles/unixTeamProject.dir/main.c.i
-.PHONY : main.c.i
+guswns/time.c.i:
+	$(MAKE) -f CMakeFiles\unixTeamProject.dir\build.make CMakeFiles/unixTeamProject.dir/guswns/time.c.i
+.PHONY : guswns/time.c.i
 
-main.s: main.c.s
+guswns/time.s: guswns/time.c.s
 
-.PHONY : main.s
+.PHONY : guswns/time.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles\unixTeamProject.dir\build.make CMakeFiles/unixTeamProject.dir/main.c.s
-.PHONY : main.c.s
+guswns/time.c.s:
+	$(MAKE) -f CMakeFiles\unixTeamProject.dir\build.make CMakeFiles/unixTeamProject.dir/guswns/time.c.s
+.PHONY : guswns/time.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... unixTeamProject
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... guswns/time.obj
+	@echo ... guswns/time.i
+	@echo ... guswns/time.s
 .PHONY : help
 
 

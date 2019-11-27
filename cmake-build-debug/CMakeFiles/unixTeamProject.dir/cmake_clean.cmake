@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/unixTeamProject.dir/main.c.obj"
+  "CMakeFiles/unixTeamProject.dir/guswns/time.c.obj"
   "libunixTeamProject.dll.a"
   "unixTeamProject.exe"
   "unixTeamProject.exe.manifest"
