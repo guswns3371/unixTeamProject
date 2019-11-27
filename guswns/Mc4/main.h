@@ -6,6 +6,8 @@
 #include <sys/msg.h>
 #define DEFINED_KEY 0x125291
 #define INFO_FILE "information.txt"
+
+
 void mainmenu();
 void showmenu0();
 void showmenu1();
